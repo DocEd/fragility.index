@@ -1,0 +1,16 @@
+citHeader("To cite fragility.index in publications use:")
+
+citEntry(
+  entry    = "Article",
+  title    = "Randomised Controlled Trials: Anything But Fragile",
+  author   = "Palmer, E. Marra, G. Singer, M.",
+  journal  = ,
+  year     = "2020",
+  volume   = ,
+  number   = ,
+  pages    = ,
+  url      = ,
+  textVersion = paste(
+
+  )
+)

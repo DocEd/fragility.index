@@ -1,0 +1,37 @@
+Package: fragility.index
+Title: Randomised Controlled Trials: Anything But Fragile
+Version: 1.1
+Authors@R: c(
+    person(given = "Edward",
+           family = "Palmer",
+           role = c("aut", "cre"),
+           email = "edward.palmer@ucl.ac.uk",
+           comment = c(ORCID = "0000-0002-8024-4616")),
+    person(given = "Giampiero",
+           family = "Marra",
+           role = c("aut"),
+           email = "giampiero.marra@ucl.ac.uk",
+           comment = c(ORCID = "0000-0002-9010-2646")),
+    person(given = "Mervyn",
+           family = "Singer",
+           role = c("aut"),
+           email = "m.singer@ucl.ac.uk",
+           comment = c(ORCID = "0000-0002-1042-6350")))
+Description: This is the research compendium for the simulation study:
+  "Randomised Controlled Trials: Anything But Fragile".
+License: CC BY 4.0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    rlang,
+    stats,
+    tibble,
+    dplyr,
+    magrittr,
+    purrr
+Suggests: 
+    ggplot2
+Depends: 
+    R (>= 2.10)
